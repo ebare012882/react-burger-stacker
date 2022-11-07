@@ -7,7 +7,7 @@ import ClearBurger from './ClearBurger';
 import Ingredient from './Ingredient';
 
 const BurgerPane = (props) => {
-    console.log(props)
+    // console.log(props)
     let burgerbits = props.burgerIngredients.map((ing, i) => (
         // the virtual DOM NEEDS a KEY to identify this
         <li key={i}> 
